@@ -1,0 +1,170 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    height: 719px;
+}
+
+.name {
+    width: 46px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #444444;
+    padding-bottom: 27px;
+}
+
+.fabs {
+    display: flex;
+    padding-bottom: 27px;
+}
+
+.fab {
+    width: 50%;
+    height: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fab.light {
+    background-color:  #eeeeee;
+}
+
+.fabs .btn {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+    padding: 21px;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn.light {
+    background-color: #009688;
+    
+}
+
+.fabs .shdw {
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12), 0px 14px 14px rgba(0, 0, 0, 0.237602);
+}
+
+.fab.dark {
+    background-color:  #303030;
+}
+
+.btn.dark {
+    background-color: #80CBC4;
+}
+
+.buttons {
+    display: flex;
+      
+}
+
+.button {
+    width: 50%;
+    height: 485px;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flat, .raised {
+    min-width: 100px;
+    border: none;
+    padding: 10px 16.5px;
+    border-radius: 2px;
+    margin: 30px 20px;
+    letter-spacing: 0.0357143em;
+}
+
+.light .texts {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.537591);
+}
+
+.dark .texts {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button.light {
+    background-color:  #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    
+}
+
+.button.dark {
+    background-color:  #303030;
+}
+
+.normal .flat, .disabled .flat {
+    background-color: transparent;
+}
+
+.light .normal .flat, .light .pressed .flat {
+    color: #009688;
+}
+
+.dark .normal .flat, .dark .pressed .flat {
+    color: #80CBC4;
+}
+
+.dark .pressed .flat {
+    background: linear-gradient(0deg, rgba(204, 204, 204, 0.25), rgba(204, 204, 204, 0.25));
+}
+
+.light .disabled {
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.light .disabled .raised {
+    background: linear-gradient(0deg, rgba(79, 79, 79, 0.26), rgba(79, 79, 79, 0.26));
+}
+
+.light .pressed .flat {
+    background: linear-gradient(0deg, rgba(153, 153, 153, 0.2), rgba(153, 153, 153, 0.2));  
+}
+
+.light .normal .raised, .light .pressed .raised {
+    background: #009688;
+    color: #FFFFFF;
+}
+
+.light .normal .raised {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+.light .pressed .raised {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+}
+
+.dark .disabled .flat {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.dark .normal .raised {
+    background: linear-gradient(0deg, #92CBC5, #92CBC5), #009688;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+.dark .pressed .raised {
+    background: linear-gradient(0deg, #92CBC5, #92CBC5), #009688;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+}
+
+.dark .disabled .raised {
+    background: linear-gradient(0deg, rgba(204, 204, 204, 0.12), rgba(204, 204, 204, 0.12));
+    color: rgba(255, 255, 255, 0.3);
+}
